@@ -1,0 +1,31 @@
+<div class="hdca-product-box__main-purchase-price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+    <span itemprop="priceCurrency" content="CAD"></span>
+    <link itemprop="itemCondition" href="http://schema.org/NewCondition" content="New" />
+    <div *ngIf="product.price1 else noPrice" class="hdca-product-box__main-purchase-price-entry">
+        <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--primary">
+            {{ product.price2 || product.price1 | currency }}
+        </span>
+        <span class="hdca-product-box__main-purchase-price-entry-content">
+             / {{ product.cuom2 || product.cuom1 }}
+        </span>
+    </div>
+    <ng-template #noPrice>
+        <div class="hdca-product-box__main-purchase-price-entry">
+            <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--primary">-</span>
+        </div>
+    </ng-template>
+    <div *ngIf="product.cuom2" class="hdca-product-box__main-purchase-price-entry">
+        <span class="hdca-product-box__main-purchase-price-entry-content">
+            <span itemprop="price">{{ product.price1 | currency }}</span> / {{ product.cuom1 }}
+        </span>
+    </div>
+    <div *ngIf="product.saving" class="hdca-product-box__main-purchase-price-entry hdca-product-box__main-purchase-price-entry--savings">
+        <time itemprop="priceValidUntil" datetime="2020-11-05"></time>
+        <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--primary">
+            Save {{ product.saving }}%
+        </span>
+        <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--was">
+            Was ${{ product.was }}
+        </span>
+    </div>
+</div>

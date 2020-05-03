@@ -1,0 +1,16 @@
+<div *ngIf="rating; else noRating" class="hdca-product-box__main-info-rating" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+    <a href="#rating" class="hdca-product-box__main-info-rating-link">
+        <div class="hdca-product-box__main-info-rating-link-stars">
+            <span class="hdca-product-box__main-info-rating-link-stars-overlay" [style.width]="getRatingWidth(rating)"></span>
+        </div>
+        <meta itemprop="worstRating" content="1" />
+        <meta itemprop="ratingValue" [content]="rating" />
+        <meta itemprop="bestRating" content="5" />
+    </a>
+</div>
+
+<ng-template #noRating>
+    <a href="#" class="hdca-product-box__main-info-placeholder">
+        <span class="hdca-product-box__assistive-text">No Rating</span>
+    </a>
+</ng-template>

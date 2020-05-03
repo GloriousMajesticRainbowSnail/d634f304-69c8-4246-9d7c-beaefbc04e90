@@ -1,0 +1,5 @@
+<div *ngIf="badges" class="hdca-product-box__intro-badges">
+    <svg *ngFor="let badge of badges" class="hdca-product-box__badge-svg" aria-hidden="true">
+        <use [attr.xlink:href]="getBadgeUrl(badge)"></use>
+    </svg>
+</div>
