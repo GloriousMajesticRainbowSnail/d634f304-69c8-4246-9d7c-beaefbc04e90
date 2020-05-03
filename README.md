@@ -14,7 +14,7 @@ Once app has finished compiling, click the link that shows at the top of termina
 
 # Startup (if using Local IDE)
 
-Make sure your versions are these or higher: 
+Make sure your versions are these or higher:
 
 node version: >= 9.8.0
 npm version: >= 6.2.0
@@ -59,6 +59,7 @@ You have been allocated to a project already in progress. Some of the boilerplat
 
 
 Rxjs / Ngrx / Observables
+
 10. Implements Ngrx Entity for state creation and management (5)
 11. Implements at least one Ngrx reducer (5)
 12. Implements at least two Ngrx actions (5)
