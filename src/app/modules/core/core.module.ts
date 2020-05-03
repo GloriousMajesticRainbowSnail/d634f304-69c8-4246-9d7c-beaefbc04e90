@@ -1,8 +1,6 @@
-import {NgModule} from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
-import {RouterModule, Routes} from '@angular/router';
-import {LandingPage} from '@landing/pages/landing/landing.page';
-import {CommonModule} from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 export const appRoutes: Routes = [
     {
@@ -17,7 +15,7 @@ export const appRoutes: Routes = [
         path: 'product',
         loadChildren: '@app/modules/product/product.module#ProductModule',
     },
-    { path: '**', redirectTo: 'landing' }
+    //{ path: '**', redirectTo: 'landing' }
 ];
 
 @NgModule({

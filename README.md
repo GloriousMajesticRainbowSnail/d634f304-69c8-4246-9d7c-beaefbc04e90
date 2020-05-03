@@ -46,10 +46,10 @@ You have been allocated to a project already in progress. Some of the boilerplat
 
 # Requirements
 
-1. Meaningful comments (5)
-2. Formatting and naming (5)
-3. Route has been configured correctly so that when a user clicks on a product link from the landing page, user is navigated to that product with the corresponding route (ie. product/1731002618) (5)
-4. Creation of a service to fetch product from /products/:id endpoint using HTTP Client and return as an observable (half marks for using /products endpoint) (10)
+1. ~~Meaningful comments (5)~~
+2. ~~Formatting and naming (5)~~
+3. ~~Route has been configured correctly so that when a user clicks on a product link from the landing page, user is navigated to that product with the corresponding route (ie. product/1731002618) (5)~~
+4. ~~Creation of a service to fetch product from /products/:id endpoint using HTTP Client and return as an observable (half marks for using /products endpoint) (10)~~
 5. Implements async pipe for consuming observable (half marks for using .subscribe()) (5)
 6. Implements at least one dumb or presentational component that does not make use of services for displaying product (5)
 7. Makes use of at least two different structural directives to form the DOM (5)
