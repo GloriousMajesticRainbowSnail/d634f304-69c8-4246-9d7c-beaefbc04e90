@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 68.0.3440 (Mac OS X 10.12.6)" package="unit" timestamp="2018-09-06T13:56:31" id="0" hostname="C02V72JPHTD6MBP" tests="1" errors="0" failures="0" time="0.086">
+<testsuite name="Firefox 75.0.0 (Windows 10.0.0)" package="unit" timestamp="2020-05-03T17:58:32" id="0" hostname="DESKTOP-E7CQ957" tests="1" errors="0" failures="0" time="0.074">
   <properties>
-    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/68.0.3440.106 Safari/537.36"/>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0"/>
   </properties>
-  <testcase name="AppComponent should create the app" time="0.086" classname="unit.AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.074" classname="unit.AppComponent"/>
   <system-out>
     <![CDATA[
 ]]>

@@ -4,7 +4,7 @@ module.exports = function(config) {
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),
-      require('karma-chrome-launcher'),
+      require('karma-firefox-launcher'),
       require('@angular-devkit/build-angular/plugins/karma'),
       require('karma-mocha-reporter'),
       require('karma-junit-reporter')
@@ -17,7 +17,7 @@ module.exports = function(config) {
     port: 9876,
     colors: true,
     autoWatch: false,
-    browsers: ['ChromeHeadless'],
+    browsers: ['Firefox'],
     singleRun: true,
     concurrency: Infinity,
     junitReporter: {
