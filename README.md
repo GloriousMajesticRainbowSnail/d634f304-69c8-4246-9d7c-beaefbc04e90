@@ -60,10 +60,10 @@ You have been allocated to a project already in progress. Some of the boilerplat
 
 Rxjs / Ngrx / Observables
 
-10. Implements Ngrx Entity for state creation and management (5)
-11. Implements at least one Ngrx reducer (5)
-12. Implements at least two Ngrx actions (5)
-13. Implements at least one Ngrx effect (makes use of created service from #4) (5)
-14. Implements "select" operator in an observable to retrieve product from state (half marks for not specifying a product id in selector) (5)
-15. Implements the "tap" operator in the observable from #10 to dispatch the GET action (half marks for dispatching action from ngOnInit instead) (10)
-16. Implements one more meaningful operator in the observable from #10 (5)
+10. ~~Implements Ngrx Entity for state creation and management (5)~~
+11. ~~Implements at least one Ngrx reducer (5)~~
+12. ~~Implements at least two Ngrx actions (5)~~
+13. ~~Implements at least one Ngrx effect (makes use of created service from #4) (5)~~
+14. ~~Implements "select" operator in an observable to retrieve product from state (half marks for not specifying a product id in selector) (5)~~
+15. ~~Implements the "tap" operator in the observable from #10 to dispatch the GET action (half marks for dispatching action from ngOnInit instead) (10)~~
+16. ~~Implements one more meaningful operator in the observable from #10 (5)~~

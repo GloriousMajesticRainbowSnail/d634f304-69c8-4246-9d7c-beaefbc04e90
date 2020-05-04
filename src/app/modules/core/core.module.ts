@@ -2,6 +2,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+
 export const appRoutes: Routes = [
     {
         path: 'landing',
@@ -21,7 +22,7 @@ export const appRoutes: Routes = [
 @NgModule({
     imports: [
         HttpClientModule,
-        RouterModule.forRoot(appRoutes)
+        RouterModule.forRoot(appRoutes),
     ],
     exports: [
         RouterModule,
